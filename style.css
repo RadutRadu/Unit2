@@ -1,0 +1,264 @@
+
+body{
+  background-image:url("bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: 'Roboto', sans-serif;}
+h1 {
+    text-align: left;
+    color: white;
+    margin-left: 100px;
+    font-style: italic;
+    text-shadow: 2px 2px 4px #000000;
+    
+    
+}
+
+h2 {
+    text-align: right;
+    color: white;
+    
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: 700px;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    
+  }
+  
+  tr:nth-child(even){background-color: #c69fcc}
+
+  td {
+    font-weight: bold;
+  }
+  
+  th {
+    background-color:#bd3bd1;
+    color: white;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .border-gradient {
+    border: 20px solid;
+    border-image-slice: 1;
+    border-width: 10px;
+    padding: 1px;
+    
+    
+  }
+
+  .border-gradient-purple {
+    
+      border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    
+  }
+
+  .t1{
+    margin-top: 20px;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .t2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 40px;
+    color: white;
+    margin-left: 100px;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .menu-bar
+{
+    text-align: center;
+    width: 100%;  
+    
+    
+}
+
+  ul#menu li {
+    display:inline;
+    align: center;
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    font-weight:800;;
+  }
+
+  ul#menu1 li {
+    display:inline;
+    align: center;
+    color: white;
+    font-size: 15px;
+    padding: 25px;
+    
+  }
+
+
+  /// slide show 
+  * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #cd8bb5;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color:white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #d53a9d;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+  
+
+/* Buton Gradient */
+
+
+.btn-grad {background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   
+   border-radius: 10px;
+   display: block;
+
+
+   margin-left:auto;
+   margin-right:auto;
+   margin-top:40px;
+
+   font-size: 25px;
+   
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ .column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+//Buton pagina principala
+.relative {
+  padding: 10px;
+  position: relative;
+  background-color: #fff;
+  margin: 5px;
+  
+ } 
+ .navitem {
+   display: inline-block;
+   width: 200px; 
+   height: 30px; 
+   text-align: center;
+   
+   background-color: #9733EE;
+   color: #fff;
+   cursor: pointer;
+   font-weight: bold;
+   margin-left: 200px;
+ }
+
+
+  
